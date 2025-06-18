@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body class="bg-nav-blue mt-5 mb-5">
+   <div class="container">
+        <div class="row">
+            <nav class="col-md-3 d-md-block sidebar">
+                <ul class="nav flex-column">
+                    <li>
+                        <img src="./assets/img/logo.webp" alt="" class="logo">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Inventory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Employees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Customers</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main col-md-9 text-white">
+                <h1>Sales Dashboard</h1>
+                <div class="dashboard-grid">
+                    <img src="./assets/img/grafico1.png" alt="">
+                    <img src="./assets/img/grafico2.png" alt="">
+                    <img src="./assets/img/grafico3.png" alt="">
+                    <img src="./assets/img/grafico4.png" alt="">
+                    <img src="./assets/img/grafico5.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="table-area">
+                    <h2>Documents</h2>
+                    <table class="table">
+                        <thead >
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">File</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Author</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Relatório Q1</td>
+                                <td>report_q1.pdf</td>
+                                <td>Financeiro</td>
+                                <td>Ana Silva</td>
+                                <td>Concluído</td>
+                            </tr>
+                            <tr>
+                                <td>Lista de Pedidos</td>
+                                <td>orders_may.xlsx</td>
+                                <td>Vendas</td>
+                                <td>Carlos Lima</td>
+                                <td>Pendente</td>
+                            </tr>
+                            <tr>
+                                <td>Estoque Atual</td>
+                                <td>inventory_may.csv</td>
+                                <td>Estoque</td>
+                                <td>Maria Souza</td>
+                                <td>Pendente</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+   </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

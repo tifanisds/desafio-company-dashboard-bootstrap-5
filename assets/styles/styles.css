@@ -1,0 +1,34 @@
+.bg-nav-blue {
+    background-color: #1b203e;
+}
+
+.bg-light-blue {
+    background-color: #555c8e;
+}
+
+.bg-md-blue {
+    background-color: #303557;
+}
+
+.logo {
+    width: 150px;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.dashboard-grid img {
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 4px solid #555c8e;
+}
+
+.nav-link:hover {
+    color: #303557 !important;
+}
